@@ -1,7 +1,13 @@
-const Person = require('./person');
+const Logger = require('./logger');
 
-const person1 = new Person('nipun' , 24);
+const logger = new Logger();
 
-person1.greeting();
+logger.on('messege' , data => console.log('Called listner' , data));
 
-console.log(__filename);
+
+logger.log('Hello World');
+logger.log('Hi');
+logger.log('Hello');
+
+
+
