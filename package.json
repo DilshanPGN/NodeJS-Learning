@@ -1,0 +1,25 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DilshanPGN/NodeJS-Learning.git"
+  },
+  "author": "Nipun Dilshan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DilshanPGN/NodeJS-Learning/issues"
+  },
+  "homepage": "https://github.com/DilshanPGN/NodeJS-Learning#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "uuid": "^8.3.2"
+  }
+}
